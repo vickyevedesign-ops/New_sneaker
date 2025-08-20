@@ -1,0 +1,201 @@
+.landing {
+  background-color: #f9f7ef;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.landing .div {
+  background-color: #f9f7ef;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.landing .airmax {
+  position: absolute;
+  width: 986px;
+  height: 761px;
+  top: 145px;
+  left: 40px;
+}
+
+.landing .text-wrapper {
+  position: absolute;
+  top: 64px;
+  left: 587px;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: 14.70px;
+  line-height: 31.5px;
+  white-space: nowrap;
+}
+
+.landing .overlap {
+  position: absolute;
+  width: 332px;
+  height: 295px;
+  top: 309px;
+  left: 1053px;
+}
+
+.landing .colour-pallete {
+  position: absolute;
+  width: 314px;
+  height: 241px;
+  top: 54px;
+  left: 0;
+}
+
+.landing .fill-the-sneaker {
+  position: absolute;
+  width: 332px;
+  top: 0;
+  left: 0;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.2px;
+}
+
+.landing .overlap-group {
+  position: absolute;
+  width: 285px;
+  height: 87px;
+  top: 192px;
+  left: 1046px;
+}
+
+.landing .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.landing .text-wrapper-3 {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 52px;
+  letter-spacing: 0;
+  line-height: 78px;
+  white-space: nowrap;
+}
+
+.landing .p {
+  position: absolute;
+  top: 665px;
+  left: 1104px;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 34.5px;
+  white-space: nowrap;
+}
+
+.landing .text-wrapper-4 {
+  position: absolute;
+  width: 314px;
+  top: 829px;
+  left: 1058px;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.landing .CTA {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 316px;
+  height: 61px;
+  top: 753px;
+  left: 1053px;
+}
+
+.landing .div-wrapper {
+  position: relative;
+  width: 314px;
+  height: 61px;
+  background-color: #f9f7ef;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.landing .text-wrapper-5 {
+  position: absolute;
+  width: 116px;
+  top: 8px;
+  left: 97px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Access MN-Medium", Helvetica;
+  font-weight: 500;
+  color: #1d1d1d;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+/* Original CSS code should be injected here */
+
+/* Enhanced accessibility and interaction styles */
+.landing .text-wrapper-4:hover,
+.landing .text-wrapper-4:focus {
+  color: #333333;
+  text-decoration-thickness: 2px;
+}
+
+.landing .CTA:hover .div-wrapper {
+  background-color: #f0f0f0;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+.landing .CTA:active .div-wrapper {
+  transform: translateY(0);
+}
+
+.landing .CTA:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Improved button accessibility */
+.landing .CTA {
+  cursor: pointer;
+}
+
+.landing .text-wrapper-4 {
+  cursor: pointer;
+}
+
+/* Screen reader improvements */
+@media (prefers-reduced-motion: reduce) {
+  .landing .CTA:hover .div-wrapper {
+    transform: none;
+    transition: none;
+  }
+}
